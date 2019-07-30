@@ -1,0 +1,49 @@
+h1.center {
+    text-align: center;
+}
+
+
+/* Flexbox stuff */
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 50vh;
+    font-size: 16px;
+    user-select: none;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+}
+
+.item {
+    height: 50px;
+}
+.tall-item {
+    height: 50px;
+}
+
+.input {
+    background-color: orange;
+    display: inline-block;
+    height: 3vh;
+    width: 3vh;
+    margin-right: 1vw;
+}
+
+.char {
+    width: 3vh;
+    height: 3vh;
+    font-size: 3vh;
+    user-select: none;
+    display: inline;
+}
+
+#timer {
+    display: inline-block;
+}
+#reset {
+    display: inline-block;
+}
